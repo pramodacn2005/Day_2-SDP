@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f3f3f3;
+        margin: 0;
+        position: relative;
+      }
+      .image1 {
+        position: absolute;
+        border: 5px solid #007bff; /* Blue border */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .image2 {
+        position: absolute;
+        border: 5px dashed #007bff; /* Blue border */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .image3 {
+        position: absolute;
+        border: 5px ridge #007bff; /* Blue border */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .image4 {
+        position: absolute;
+        border: 5px inset #007bff; /* Blue border */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .image3 {
+        top: 50%; /* Move towards top-left */
+        left: 10%;
+        
+      }
+      .image4 {
+        top: 90%; /* Move towards top-left */
+        right: 0%;
+      }
+      .image1 {
+        top: 10%; /* Move towards top-left */
+        left: 10%;
+      }
+      .image2 {
+        bottom: 10%; /* Move towards bottom-right */
+        right: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image1">
+      <img src="../images/but_ch.jpg" alt="" />
+    </div>
+
+    <div class="image2">
+      <img src="../images/dosa.jpg" alt="" />
+    </div>
+    <div class="image3">
+      <img src="../images/jamun.jpg" alt="" />
+    </div>
+    <div class="image4">
+      <img src="../images/briyani.jpg" alt="" />
+    </div>
+  </body>
+</html>

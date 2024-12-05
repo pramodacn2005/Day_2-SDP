@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Types with Images</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      padding: 20px;
+    }
+    .container {
+      text-align: center;
+    }
+    .image-box img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .solid img {
+      border: 5px solid black;
+      padding: 20px;
+    }
+    .dotted img {
+      border: 5px dotted black;
+      padding: 20px;
+    }
+    .dashed img {
+      border: 5px dashed black;
+      padding: 20px;
+    }
+    .double img {
+      border: 5px double black;
+      padding: 20px;
+    }
+    .groove img {
+      border: 5px groove black;
+      padding: 20px;
+    }
+    .ridge img {
+      border: 5px ridge black;padding: 20px;
+    }
+    .inset img {
+      border: 5px inset black;padding: 20px;
+    }
+    .outset img {
+      border: 5px outset black;padding: 20px;
+    }
+    .none img {
+      border: none;padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container solid">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Solid Border">
+    </div>
+    <p>Solid Border</p>
+  </div>
+  <div class="container dotted">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Dotted Border">
+    </div>
+    <p>Dotted Border</p>
+  </div>
+  <div class="container dashed">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Dashed Border">
+    </div>
+    <p>Dashed Border</p>
+  </div>
+  <div class="container double">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Double Border">
+    </div>
+    <p>Double Border</p>
+  </div>
+  <div class="container groove">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Groove Border">
+    </div>
+    <p>Groove Border</p>
+  </div>
+  <div class="container ridge">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Ridge Border">
+    </div>
+    <p>Ridge Border</p>
+  </div>
+  <div class="container inset">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Inset Border">
+    </div>
+    <p>Inset Border</p>
+  </div>
+  <div class="container outset">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="Outset Border">
+    </div>
+    <p>Outset Border</p>
+  </div>
+  <div class="container none">
+    <div class="image-box">
+      <img src="../images/briyani.jpg" alt="No Border">
+    </div>
+    <p>No Border</p>
+  </div>
+</body>
+</html>

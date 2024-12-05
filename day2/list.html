@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav3 {
+        background-color: #b3a04a;
+        padding: 10px;
+      }
+
+      .nav3 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+      }
+
+      .nav3 a {
+        text-decoration: none;
+        color:white;
+        padding: 10px;
+        display: block;
+      }
+
+      .nav3 .dropdown-content {
+        display: none;
+      }
+     .nav3 .dropdown:hover .dropdown-content {
+      display: block;
+      position: absolute;
+      background-color: #373535;
+      min-width: 150px;
+     }
+    </style>
+</head>
+<body>
+    <nav class="nav3">
+      <div class="navdiv">
+        <ul>
+         <li><a href="">Electronics</a></li>
+         <div class="dropdown">
+          <div class="dropdown-content">
+            <a href="#">MObiles</a>
+            <a href="#">Laptop</a>
+            <a href="#">Wires</a>
+        </div>
+          </div>
+          </li>
+          <li><a href="">Furniter</a></li>
+          <div class="dropdown-content">
+            <a href="#">Sofas</a>
+            <a href="#">Bed</a>
+            <a href="#">Chirs</a>
+          </div>
+          </li>
+          </ul>
+      </div>
+    </nav>
+
+    
+</body>
+</html>

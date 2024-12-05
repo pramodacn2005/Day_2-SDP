@@ -1,0 +1,25 @@
+p {
+  color: red;
+}
+
+.p {
+  color: blue;
+}
+
+#ppp {
+  color: aqua;
+}
+
+.text {
+    color: rgb(127, 136, 255);
+    background-color: rgb(222, 164, 135);
+    text-align: center;
+    direction: ltr;
+    text-transform: capitalize;
+    text-indent: 2cm;
+    letter-spacing: normal;
+    line-height: 30px;
+    word-spacing: 5px;
+    white-space: none;
+    text-shadow:  2px 2px red;
+}
